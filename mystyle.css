@@ -1,0 +1,158 @@
+/*
+body
+{
+	background-color: lightblue;
+	 background: #C04848;   fallback for old browsers 
+	
+    background: linear-gradient(rgb(1,1,1,0.7), rgb(1,1,1,0.7)),
+	url(img2.jpg);
+	background-size: cover; 
+}
+*/
+
+.b{
+	background: linear-gradient(rgb(1,1,1,0.7), rgb(1,1,1,0.7)),
+	url(img2.jpg);
+	background-size: cover; 
+}
+
+img.id1
+{
+	/*color: #ff8315;
+	padding: 18px;
+	font-size: 80px;*/
+	text-align: left;
+	width: 210px;
+	height: 100px;
+	padding: 20px;
+
+	
+}
+
+
+img.id2
+{
+	max-width: 813px;
+	height: 650px;
+	margin-left: 700;
+	margin-bottom: 60px;
+}
+
+div.topnav
+{
+	overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  margin-top:20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover{
+	color: #FF8315;
+}
+
+.topnav a.active {
+  color: #FF8315;
+}
+
+.p1{
+	position: absolute;
+	color: white;
+	font-size: 62px;
+	bottom: 200px;
+	word-spacing: 2;
+	padding:12px;
+}
+
+.p2{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	bottom: 140px;
+	word-spacing: 2;
+	padding:12px;
+}
+
+.b1{
+	background-color: #FF8315;	
+	color: white;
+	font-size:16px;
+	padding:12px;
+	text-align: center;
+	border-radius:10px;
+	min-height: 50; 
+	min-width: 80;
+	position: absolute;
+    left: 20px;
+	top: 550px;
+	cursor: pointer;
+}
+
+.p3{
+	text-align: center;
+	color: black;
+	margin-top: 80px;
+	font-size: 42px;
+	font-weight: bold;
+	
+}
+
+.p4{
+	color: grey;
+	text-align: center;
+}
+
+.b2{
+	border-radius: 10px;
+	color:white;
+	background-color: #FF8315;
+	border: none;
+	text-align: center;
+	font-size: 20px;
+	padding: 12px;
+	text-transform: uppercase;
+	margin-left: 600px;
+	margin-top: 12px;
+	cursor: pointer;
+}
+
+.div3{
+	margin-top: 150px;
+	background-color: #003629;
+	padding-bottom: 90px;
+}
+
+.p5{
+	color: white;
+	font-size: 42px;
+	padding: 100px 0px 0px 20px;
+	margin-left: 20px;
+}
+	
+.p6{
+	color: white;
+	margin-left: 30px;
+}
+
+img.id3{
+	width:680px;
+	height: 480px;
+	position: relative;
+	float: right;
+	top: -350px;
+
+	background-color: white;
+	padding-bottom: 180px;
+	padding-right: 20px;
+}
+
+.div4{
+	background-color: white;
+	padding:100px;
+}
